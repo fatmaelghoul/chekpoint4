@@ -1,0 +1,14 @@
+body {
+  background-color: antiquewhite;
+  font-size: 1rem;
+}
+header {
+  border: solid;
+}
+.vetement {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
